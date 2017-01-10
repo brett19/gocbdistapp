@@ -1,11 +1,12 @@
 package cbdistapp
 
 import (
-	"time"
-	"github.com/couchbase/gocb"
-	"github.com/google/uuid"
 	"encoding/json"
 	"errors"
+	"time"
+
+	"github.com/google/uuid"
+	"gopkg.in/couchbase/gocb.v1"
 )
 
 var (
